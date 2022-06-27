@@ -1,5 +1,9 @@
 # Wizeline Academy - Ondemand React Bootcamp
 
+## Live demo
+
+https://wizeline-rafaolivas-react-bootcamp.web.app/
+
 ## Overview
 
 Here you will find all the instructions to complete your **Capstone Project**.
@@ -160,7 +164,7 @@ The following is the list of evaluation criteria for your deliverable:
 - Pagination controls are rendered correctly: 5 points
 
 ### Bonus
-The bonus is a plus that helps us know you better and increments your final score. Consider the following: 
+The bonus is a plus that helps us know you better and increments your final score. Consider the following:
 - Emulate loading state for the Products Grid. You should show a loader component immediately after you navigate to the Product List Page and 2 seconds after that, you should remove that loader and show all the products from the mock file (20 points)
 
 
@@ -262,7 +266,7 @@ The following is the list of evaluation criteria for your deliverable:
 - Pagination Controls and Custom Message in Search Results Page are generated dynamically and are working correctly: 10 points
 
 ### Bonus
-The bonus is a plus that helps us know you better and increments your final score. Consider the following: 
+The bonus is a plus that helps us know you better and increments your final score. Consider the following:
 - React Context and useReducer or Redux are implemented to manage the global state of your application: 15 points
 - Abort Controller is implemented correctly for all your fetch requests: 15 points
 - Loading indicator appears on all the components that consume an API: 10 points
@@ -317,7 +321,7 @@ The following is the list of requirements for your deliverable:
 - 4.2.3. You don’t have to implement the logic for the **Place order** button yet.
 - 4.2.4. After clicking on the **Go back to cart** button, you should be able to navigate to the **Shopping Cart** Page.
 
->  **Notes**: 
+>  **Notes**:
 > - You should implement functional components with hooks.
 > - Try to keep the use of third-party libraries to the minimum, especially the ones related to the topics covered in our bootcamp. **Please don’t use any components library such as Bootstrap or Material UI.**
 > - We want you to create all of your styles from scratch using the styling techniques learned, you can use any of the following styling approaches: Plain CSS with classnames, CSS pre-processors, CSS Modules, or CSS-in-JS (styled-components, emotion, or any other library), is totally up to you!
@@ -325,7 +329,7 @@ The following is the list of requirements for your deliverable:
 > - Please make sure that no warnings or errors are logged in the browser console.
 
 ### Evaluation Criteria
-    
+
 The following is the list of evaluation criteria for your deliverable:
 - After clicking on the **Add to Cart** button on the Product Detail Page, the number of items selected are correctly added to the cart and the badge for the Shopping Cart Icon in the Header is updated correctly (25 points)
 - The logic to update the quantity for a product on the “Shopping Cart Page” is implemented correctly (10 points)
@@ -336,7 +340,7 @@ The following is the list of evaluation criteria for your deliverable:
 
 ### Bonus
 
-The bonus is a plus that helps us know you better and increments your final score. Consider the following: 
+The bonus is a plus that helps us know you better and increments your final score. Consider the following:
 - PropTypes are implemented correctly for all your components (10 points)
 - Error Boundaries are applied correctly at least for 1 component within the app (15 points)
 - useMemo and useCallback hooks are implemented correctly to improve performance if needed (20 points)
@@ -348,7 +352,7 @@ The bonus is a plus that helps us know you better and increments your final scor
 
 ### Before you start
 Follow these steps before you begin:
-    
+
 1. Merge your branch from the previous deliverable into main in your own GitHub repo
 2. Create a new branch with the name “feat/final-deliverable” derived from main on your repo
 3. Read carefully all the instructions and notes for this deliverable
@@ -396,7 +400,7 @@ The following is the list of requirements for your deliverable:
 - 6.5. Validate that you can remove a product from the cart after clicking on the “remove from cart icon”.
 
 >  **IMPORTANT:** Don’t consume the real APIs on the tests, instead, you can use the [MSW (Mock Service Worker) library](https://mswjs.io/) and please take a look at [this article](https://kentcdodds.com/blog/stop-mocking-fetch)
-    
+
 > **Notes**:
 > - You must use Jest and React Testing Library for the tests
 > - Please avoid using snapshot tests
