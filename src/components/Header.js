@@ -52,7 +52,7 @@ function Header() {
     height: 98px;
     padding: 10px;
     grid-template-columns: 2fr 7fr 1fr;
-    background-color: cadetblue;
+    background-color: ghostwhite;
   `;
 
   const Container = styled.div`
@@ -71,7 +71,7 @@ function Header() {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #333;
     font-size: 42px;
   `;
 

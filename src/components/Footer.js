@@ -8,6 +8,7 @@ function Footer() {
     justify-content: center;
     background-color: #333;
     color: white;
+    padding: 0 20px;
   `;
 
   const Message = styled.p`
